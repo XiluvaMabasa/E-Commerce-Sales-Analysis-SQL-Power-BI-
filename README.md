@@ -57,13 +57,13 @@ GROUP BY order date;
 The dashboard provides an overview of revenue trends, product performance, and sales behavior patterns
 
 #### Revenue Over Time
-![Revenue](images/revenue.png)
+![Revenue](images/Revenue.jpeg)
 
 #### Top Products
-![Top Products](images/top_products.png)
+![Top Products](images/top-products.jpeg)
 
 #### Sales Pattern
-![Sales](images/sales.png)
+![Sales](images/Sales.jpeg)
 
 ### Key Insights
 - Total revenue generated was approximately 13.6 million
