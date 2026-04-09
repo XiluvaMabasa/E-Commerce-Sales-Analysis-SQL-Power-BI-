@@ -53,6 +53,18 @@ JOIN order_items oi
 ON o.order_id = oi.order_id
 GROUP BY order date;
 
+### Dashboard Preview
+The dashboard provides an overview of revenue trends, product performance, and sales behavior patterns
+
+#### Revenue Over Time
+![Revenue](images/revenue.png)
+
+#### Top Products
+![Top Products](images/top_products.png)
+
+#### Sales Pattern
+![Sales](images/sales.png)
+
 ### Key Insights
 - Total revenue generated was approximately 13.6 million
 - A small number of products contribute significantly to total revenue
