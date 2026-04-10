@@ -1,25 +1,38 @@
 # E-Commerce-Sales-Analysis-SQL-Power-BI-
 
 ### Overview
-This project analyzes e-commerce sales data to uncover key trends in revenue, product performance, and customer purchasing behavior. The analysis was conducted using SQL and visualized using Power BI. 
+This project analyzes an e-commerce dataset to uncover key business insights related to sales performance, customer behavior, and product trends. The goal is to transform raw transactional data into actionable insights that can support data-driven decision-making.
 
-### Objectives
-- Analyze total revenue and sales performance
-- Identify top-performing products
-- Understand revenue trends over time
-- Compare revenue vs sales volume
-- Analyze weekday vs weekday sales patterns
+### Business Problem
+E-commerce businesses generate large volumes of sales data, but often struggle to extract meaningful insights. This project aims to answer key business questions such as:
+- Which products and categories generate the most revenue?
+- How do sales trends change over time?
+- Which regions or customer segments perform best?
+- How do discounts impact profitability?
+
+### Dataset
+The dataset contains transactional e-commerce data, including:
+- Order details (Order ID, date)
+- Product information (Category, sub category)
+- Sales and Profit metrics
+- Customer and regional data
+
+### SQL Analysis
+SQL was used for data cleaning, transformation, and analysis.
+Key operations performed:
+- Data aggregation (Total Revenue)
+- Joins across two tables
+- Grouping category and time
+- Trend analysis using time-based queries
+
+Example insights derived using SQL:
+- Top performing product by revenue
+- Yearly sales trends
 
 ### Tools and Technologies
 - SQL (SQLite)
 - Power BI
 - DB Browser for SQLite
-
-### Dataset
-The dataset consists of two tables:
-- Orders: Contains order-level information such as order ID and purchase timestamp
-- Order Items: Contains product-level details such as product ID and price
-These tables are linked using order_id
 
 ### Exploratory Data Analysis (EDA)
 - The dataset spans across multiple dates based on order timestamps
@@ -77,4 +90,4 @@ The dashboard provides an overview of revenue trends, product performance, and s
 - Introduce targeted promotions during weekends to boost sales
 
 ### Conclusion
-This project demonstrates the use of SQL for data analysis and Power BI for data visualization to generate actionable business insights from raw e-commerce data. 
+This project demonstrates how raw e-commerce data can be transformed into meaningful insights using SQL and Power BI. It highlights the importance of data-driven decision-making in identifying trends, optimizing performance, and improving business strategy.
